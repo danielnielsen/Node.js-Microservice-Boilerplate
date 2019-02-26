@@ -1,17 +1,33 @@
 {
-    "name": "NodeJS Boilerplate",
-    "description": "",
-    "version": "0.0.1",
-    "main": "dist/api.js",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/danielnielsen/Node.js-Microservice-Boilerplate.git"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/danielnielsen/Node.js-Microservice-Boilerplate/issues"
-    },
-    "homepage": "https://github.com/danielnielsen/Node.js-Microservice-Boilerplate"
+  "name": "node.js-microservice-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HyperGeil/Node.js-Microservice-Boilerplate.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HyperGeil/Node.js-Microservice-Boilerplate/issues"
+  },
+  "homepage": "https://github.com/HyperGeil/Node.js-Microservice-Boilerplate#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^6.2.0",
+    "helmet": "^3.15.1",
+    "morgan": "^1.9.1",
+    "typescript": "^3.3.3333",
+    "typings": "^2.1.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.4",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "express": "^4.16.4"
   }
+}
